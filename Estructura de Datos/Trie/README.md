@@ -10,10 +10,11 @@
  
 </ol>
     Trie es una estructura de datos enfocada a la facilitación de la búsqueda de una secuencia de caracteres dentro de un conjunto de Strings o de caracteres dado, se puede utilizar para realizar búsquedas de manera óptima, con una complejidad casi lineal (dependiendo de la implementación y las restricciones del problema).
-
-    Realizaremos esta búsqueda construyendo un árbol. Este árbol está compuesto por nodos y cada nodo es un caracter que pertenece a un universo definido $U$. Los nodos son posicionados de acuerdo a su posición en el String que estamos introduciendo al árbol, iniciando con un vacío.
     
-    En código, del árbol estará compuesto por mapas o por arrays. Si utilizamos arrays, la búsqueda de nodos será más rápida, pero cada caracter no utilizado en las bifurcaciones de un nodo será marcado como nulo y estaremos sacrificando memoria. Y si utilizamos mapas, no tendremos nodos nulos, pero la búsqueda será de $O(n)$.
+Realizamos esta búsqueda construyendo un árbol. El árbol está compuesto por nodos, cada nodo es un caracter el cual pertenece a un universo denominado $U$. Los nodos son posicionados de acuerdo a las posisciones de la palabre que tratamos de introducir al árbol.
+
+El código del árbol debe estar compuesto por maps o arrays, en caso de que sea un array es necesario ordenar los nodos alfabeticamente. Al usasr arrays la busqueda será mas veloz que al usar maps. Al utilizar maps no tendrempos nodos nulos pero la complejidad algoritmica sera de $O(n)$.
+
 Para utilizar un Trie es necesario armar un árbol, donde los nodos sean las letras de las palabras. Se debe marcar a cada letra que es fin de una palabre, podemos ordenar alfabéticamente a las palabras que forman el Trie.
 
 ### Ventajas
