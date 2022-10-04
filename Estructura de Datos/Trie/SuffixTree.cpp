@@ -114,10 +114,7 @@ class SuffixTree
             }
             root->suffixLink = NULL;
             return root;
-        }        
-        /* 
-         * Funtion to find longest common substring 
-         */
+        }    
         int findLCS(SuffixNode *node, int i1, int i2) 
         {
             if (node->begin <= i1 && i1 < node->end) 
