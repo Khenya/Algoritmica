@@ -28,7 +28,7 @@ Un conjunto de números es un monoide si es que es un semigrupo. Un monoide debe
   
   * Es necesario que sea asociativa $(a * b) * c = a * (b * c) $. 
   
-  * Debe ser interna por lo cual cada resultado de un aoperacion debe pertenecer al mismo conjunto 
+  * Debe ser una operacion interna por lo cual cada resultado de un aoperacion debe pertenecer al mismo conjunto. 
 
 
 
