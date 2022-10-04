@@ -6,38 +6,34 @@ struct node {
     char currentCharacter;       
     bool isWord;
     struct node *Cbefore;
-   //  int priority = 0;            
-    struct node *children[27];  // [null,null,null,......,null]
+    struct node *children[27];
     node() {
         isWord = false;
     }
 }*trie; 
 
-// Inicializar 
 
 void init() {
-    trie = new node();  // Instanciar el objeto trie
+    trie = new node();
 }
 
-void insertWord(string word) {   // alba 
+void insertWord(string word) {   
     node *currentNode =  trie;  
-    for (int i = 0; i< word.length(); i++) { // alba
-        int character = word[i] - 'a';       // i = 0 'a'-'a' = 0
+    for (int i = 0; i< word.length(); i++) { 
+        int character = word[i] - 'a';       
         if(currentNode->children[character] == NULL ) {
             currentNode->children[character] = new node();
-           // currentNode->isWord = false;
         }
-      //   currentNode = max(currentNode->priority,priority);
         currentNode = currentNode->children[character];
         currentNode->currentCharacter = word[i];
     }
     currentNode->isWord = true;
 }
 
-bool searchWord(string word) {   // alto 
+bool searchWord(string word) {   
     node *currentNode =  trie;  
     for (int i = 0; i< word.length(); i++) {
-        int character = word[i] - 'a';       // i = 0 'a'-'a' = 0
+        int character = word[i] - 'a';       
         if(currentNode->children[character] == NULL ) {
            return false;
         }
@@ -63,28 +59,6 @@ void deleteWord(string word){
     currentNode = NULL;
     delete currentNode;
 }
-/*
-int findWords(string prefix) {   // alto 
-    node *currentNode =  trie;  
-    for (int i = 0; i< prefix.length(); i++) {
-        int character = prefix[i] - 'a';       // i = 0 'a'-'a' = 0
-        if(currentNode->children[character] == NULL ) {
-           return 0;
-        }
-        currentNode = currentNode->children[character];
-    }
-    return currentNode->countWords;
-}*/
-/*
-void showTrie(node currentNode ) {
-    node *currentNode =  trie;  
-    for (int i =0; i< 27; i++) {
-        currentNode = currentCharacter = word[i];
-        cout (char(i+'a'));
-        showTrie(currentNode)
-    }
-}*/ 
-
 
 void isThereWord(string word) {
     if(searchWord(word)) {
@@ -96,13 +70,11 @@ void isThereWord(string word) {
 
 int main() {
 
-    // Inicializar Trie
+
     init();  
     string word = "auto";
     insertWord(word);
     isThereWord(word);
-       // cout << "uwu" << endl;
-
     word = "automovil";   
     insertWord(word);
     isThereWord("auto");
@@ -112,3 +84,4 @@ int main() {
 
     return 0;
 }
+
