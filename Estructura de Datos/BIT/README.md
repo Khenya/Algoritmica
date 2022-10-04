@@ -1,86 +1,27 @@
 <div align="center">
   
-  ## Proyecto Algorítmica 1: Buscaminas
-  ### Integrantes: 
-  Brenda Alvarado Choque<br/>
-  Hugo Apaza Huarcho<br/>
-  Vivian Marino Sánchez
+  ## Binary Index Tree (BIT)
     
 </div>
 
-### Definición del Proyecto
+### Introducción
 
-El proyecto final elegido es un juego de Buscaminas. Este juego utiliza el método FloodFill como base. Implementará FloodFill para que las celdas sin bomba sean reveladas en conjunto si el número de celdas marcadas es equivalente al número de bombas alrededor. Se liberarán las celdas de manera que, habiendo seleccionado una celda:<br/>
+  Un BIT, también conocido como Fenwick Tree, es una estructura de datos que almacena los resultados de un operación -u operaciones- determinada en un intérvalo [0..j]. Esto con el propósito de solamente tener que obtener el resultado de la operación inversa entre los intérvalos [0..i] y [0..j] para poder obtener el resultado de la operación para el intérvalo [i..j].
+        Aunque le llamemos Tree, en realidad el árbol como tal no existe. Todos los datos en realidad están guardados en un arreglo. Además, a diferencia de la estructura Segment Tree, no guardamos todos los valores del conjunto dado. Priorizamos el almacenamiento de la operación realizada en intérvalos de tamaños mayores a 1.
+        Para poder construir un BIT, Binary Indexed Tree, debemos primero entender la operacion binaria Complemento 1 y también el concepto de bit menos significativo. El complemento 1 de un número binario es aquel que convierte los 1's del original en 0's y los 0's en 1's. Entonces si tenemos 11, su complemento 1 será 00. De esta operación derivará una segunda operación '-n(a 2 )', donde -n = complemento1(a 2 ) + 1. Y el bit menos significativo de un número binario será el último número 1 presente en el número seguido de los ceros correspondientes. Si tenemos 1010, el bit menos significativo será 10; si tenemos 11100, será 100; si tenemos 1001, será 1; etc.
+        Encontrar el bit menos significativo por medio de código es esencial. La nueva operación -n() nos ayudará. La manera en que encontraremos el bit menos significativo de un número binario será aplicando la operación 'and' al número binario a 2 y al resultado de -n(a 2 ). Es decir, bms(a 2 ) = a 2 AND -n(a 2 ).
+        Lo bueno de esta estructura es que para actualizar un valor en el conjunto, utilizamos el mismo método con el que construimos el BIT.         Para hacer consultas del intérvalo [i..j], vamos de hijo a padre con la operación padre() que describimos anteriormente tanto para i como para j , sumando al hijo el valor que tenemos en padre, repitiendo el proceso hasta que lleguemos a 0.         Teniendo bms(a 2 ) ahora lo utilizaremos para determinar el intérvalo cuyo resultado se guardará en una posición a. El intérvalo para un nodo a será [padre(a)..a] de tal manera que padre(a) sea el resultado de restar bms(a 2 ) a 'a 2 '. Entonces: padre(a) = a 2 - bms(a 2 ). Algo a denotar es que los nodos padres siempre serán potencias de a, es decir, [1,2,4,8,16..], con la excepción de 0, que es el padre primario. Sin embargo, aunque de esta manera sea de hijo a padre, una vez que se implementa en código es de padre a hijo, de tal manera que primero almacenemos el valor correspondiente al padre en todos sus hijos y, luego, añadiremos el valor de los nodos hijos aplicando la operación al valor ya añadido y al del nodo hijo que está siendo introducido.         Cabe remarcar que esta estructura de datos se utiliza con grupos. Decimos que un conjunto de números es un grupo si es que es un monoide y además tiene un elemento inverso. Entonces, un conjunto S que es un grupo cumple con las siguientes características:
+Para que sea un monoide:
 
-<ol>
-  
-  <li>Se liberen las celdas de alrededor que no estén marcadas.</li>
-  <li>Se liberen también las vecinas de una celda 0 que esté alrededor de la celda que se seleccionó. Esto se llevará a cabo de manera recursiva.</li>
-  
-</ol>
+Para todo par de números (a,b) que pertenecen a S, el resultado de la operación 'o' entre ellos debe también pertenecer a S. Es decir, aob=c y 'c' pertenece a S. Esta es el la propiedad de operación interna.
+Para toda operación 'o' que se realice con los números (a,b,c) que pertenecen a S, el orden de realización no debe afectar el resultado. Es decir, ao(boc) = (aob)oc. Esta es la propiedad asociativa.
+Un elemento 'e' debe pertenecer a S tal que la operación entre este elemento y cualquier otro número 'a' del conjunto, nos devuelva el elemento 'a'. Es decir, aoe=a. Esta es la propiedad neutra.
+Para que sea un grupo:
+Cada elemento 'a' del conjunto debe tener un inverso 'I' tal que la operación o entre estos dos elementos nos devuelva el elemento neutro 'e'. Es decir, aoI=e y Ioa=e. Esta es la propiedad inversa.
+Ejemplo
 
-El juego, como la versión clásica, concluirá una vez que todas las celdas que no contengan una bomba hayan sido liberadas.<br/>
 
 ### Controles
 
-Para jugar, debe ingresar 3 dígitos separados por espacios: P, M y N. P será el botón a presionar, donde 0 será 'revelar', 1 'marcar' y 1 sobre una celda marcada 'desmarcar'. M y N son las coordenadas del cuadro con el que se interactuará. M representa la fila seleccionada y N la columna seleccionada.<br/>
 
-### Reglas
-
-Algunas celdas contienen bombas. Aquellas que no, contienen el número de bombas que se encuentran en las celdas a su alrededor. Si revela una bomba, pierde. Si revela todas las celdas sin bombas, gana. Las bombas pueden ser marcadas y las celdas pueden ser reveladas en grupo si se han marcado el número de bombas a su alrededor o si no tiene bombas alrededor.
-
-### Instalación
-
-<div align="center">
-  
-  Primero, ingresar al siguiente [link](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/tree/main/versionFinal). Tras hacer click en el link, se encontrará en un directorio del repositorio de GitHub creado por el grupo. Haga click en el archivo 'buscaminas.zip'.
-
-![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install1.png)
-  
-  A continuación hacer click en el botón 'Download'.
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install2.png)
-  
-  Una vez descargado el archivo, ir a la carpeta en que está guardado y hacer click derecho sobre él.
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install3.png)
-  
-  Entonces, hacer click en la opción 'Extract here' o 'Extraer aquí'.
-  
-   ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install4.png)
-  
-  Una vez extraído el archivo, mover la carpeta generada al directorio que se utilice como workspace de Visual Studio Code.
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install5.png)
-  
-  Para acceder al juego tendrá que seguir las siguientes instrucciones cada vez que lo haga:
-
-Abrir Visual Studio y escribir en la terminal: cd buscaminas
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install6.png)
-  
-  Por último, escribir en la terminal: .\buscaminas
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install7.png)
-  
-  Si usted siguió de manera correcta las instrucciones, abrá accedido de manera correcta al juego.
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install8.png)
-  
-  ### Archivo .exe no funciona
-  
-  Primero, abrir 'buscaminas.cpp'.
-  
-   ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install9.png)
-  
-  Entonces, ir a 'Terminal' y hacer click en 'Run Build Task'.
-  
-   ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install10.png)
-  
-  Por último, hacer click en la opción marcada en la siguiente imagen:
-  
-  ![alt text](https://github.com/HugoAlejandro2002/Proyecto-Algoritmica-I/blob/main/imagenes/install11.png)
-  
-  De esta manera se abrá sobreescrito el archivo .exe y el programa ya debería funcionar.
-  
 </div>
