@@ -20,5 +20,6 @@ Algunas de sus ventajas son:
 1) Búsqueda de claves más rápida. La búsqueda de una clave de longitud m tendrá en el peor de los casos un coste de O(m). Un BST tiene un coste de O(m log n), siendo n el número de elementos del árbol, ya que la búsqueda depende de la profundidad del árbol, logarítmica con el número de claves.
 2) Menos espacio requerido para almacenar gran cantidad de cadenas pequeñas, puesto que las claves no se almacenan explícitamente.
 3) Mejor funcionamiento para el algoritmo de búsqueda del prefijo más largo.
-
+4) AL estar conformada por nodos de tal manera que unos estén conectados con otros formando ramas. Lo cual ayuda a que cada rama debe conformar una palabra.
+5) Cada nodo contenga un caracter. Por lo cual cada nodo puede marcar el final de palabra.
 </div>
