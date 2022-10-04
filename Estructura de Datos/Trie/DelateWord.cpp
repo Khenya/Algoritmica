@@ -70,15 +70,15 @@ void isThereWord(string word) {
 int main() {
 
     init();  
-    string word = "auto";
+    string word = "mani";
     insertWord(word);
     isThereWord(word);
 
-    word = "automovil";   
+    word = "manipulacion";   
     insertWord(word);
-    isThereWord("auto");
+    isThereWord("mani");
     isThereWord(word);
-    deleteWord("automovil");
+    deleteWord("manipulacion");
         isThereWord(word);
 
     return 0;
