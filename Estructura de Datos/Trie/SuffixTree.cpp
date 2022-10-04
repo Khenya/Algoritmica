@@ -11,9 +11,6 @@ class SuffixNode
         int depth, begin, end;
         SuffixNode **children;
         SuffixNode *parent, *suffixLink;  
-        /* 
-         * Constructor 
-         */
         SuffixNode(int begin, int end, int depth, SuffixNode *parent) 
         {
             children = new SuffixNode* [38];
