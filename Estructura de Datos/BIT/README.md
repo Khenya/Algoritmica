@@ -18,6 +18,8 @@
   
   Para hacer consultas del intérvalo [i..j], vamos de hijo a padre con la operación padre() que describimos anteriormente tanto para i como para j , sumando al hijo el valor que tenemos en padre, repitiendo el proceso hasta que lleguemos a 0. 
   
+  La complejidad algoritmica del BIT es O(n).
+  
   Lo malo de la estructura BIT es que es bnecesario que sea un grupo.
   
   Para que sea un grupo:
