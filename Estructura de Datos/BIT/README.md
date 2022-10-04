@@ -25,7 +25,7 @@
  
   * Cada elemento $a$ del conjunto debe tener un inverso $I$ tal que la operación o entre estos dos elementos nos devuelva el elemento neutro $e$. Es decir, $aoI=e$ y $Ioa=e$ . Esta es la propiedad inversa.
   
-  * Es necesario que exista un neutro $e$.
+  * Es necesario que exista un neutro $e$. Un neutro es un numero, al cual se le aplica una operacion y no cambi el resultado inicial.
   
   * Es necesario que sea asociativa $(a * b) * c = a * (b * c) $.
   
