@@ -17,6 +17,17 @@ void init() {
     }
 }
 
+void unir(int vertice1, int vertice2) {
+    padres[vertice2] = vertice1;
+}
+
+int encontrarAlPadre(int vertice) {
+    if(padres[vertice] == vertice) {
+        return vertice;
+    }
+    return encontrarAlPadre(padres[vertice]);
+}
+
 int find(int x) {
     if(x == parent[x]) {
         return x;
@@ -77,7 +88,4 @@ int main() {
 
     return 0;
 }
-
-
-
 
