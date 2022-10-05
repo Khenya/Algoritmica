@@ -19,3 +19,4 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 #### 1. Trie
 #### 2. Segment Tree
 #### 3. Union Find
+#### 4. BIT
