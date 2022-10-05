@@ -57,8 +57,23 @@ void deleteWord(string word){
     currentNode = NULL;
     delete currentNode;
 }
-
-
+/*
+static void borrarPalabra(String word) {
+	int letras = palabra.length();
+	Nodo nodoActual = raiz;
+	for (int i = 0; i < letras; i++) {
+		char caracter = palabra.charAt(i);
+		if (nodoActual.hijos[caracter - 'a'] == null) {
+			break;
+		} else {
+			nodoActual = nodoActual.hijos[caracter - 'a'];
+		}
+	}
+	if (nodoActual.FinDePalabra) {
+    	nodoActual.FinDePalabra = false;
+	} 
+}
+*/
 void isThereWord(string word) {
     if(searchWord(word)) {
         cout<<"si existe : "<<word<<" en el trie"<<endl;
