@@ -25,4 +25,10 @@ Algunas de sus ventajas son:
 3) Mejor funcionamiento para el algoritmo de búsqueda del prefijo más largo.
 4) Al estar conformada por nodos de tal manera que unos estén conectados con otros formando ramas. Lo cual ayuda a que cada rama debe conformar una palabra.
 5) Al cada nodo contenga un caracter es posible marcar el final de palabra en cada nodo. Lo cual nos ayuda a ahorrarmemoria, logrando que nuestro algoritmo sea más veloz.
+
+### Aplicaciones
+Algunas de las aplicaciones de la estructura de datos Trie son:
+
+* Autocorrector
+* Autocompletado de texto
 </div>
