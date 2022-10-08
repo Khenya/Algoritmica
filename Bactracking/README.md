@@ -26,5 +26,6 @@ Algunas de sus ventajas son:
 Algunas de las aplicaciones de la estructura de datos Trie son:
 
 * El problema de las 8 reinas.
-* encontrar la ruta más corta en un grafo. 
+* Encontrar la ruta más corta en un grafo. 
+* Resolver un sudoku.
 </div>
