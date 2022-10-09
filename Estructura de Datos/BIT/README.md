@@ -39,6 +39,7 @@
   
  ![alt text](https://images.ctfassets.net/piwi0eufbb2g/3x4z986CTmMGWH50X7mp9q/78e572d03601658d4ec6b5353974c85c/bitval.gif)
  
+ La imagen nos muestra de una vertical los nodos que tendriasmos que modificar si hacermos un update.
  ### Aplicaciones 
  Este algoritmo se puede usar para resolver los siguiente problemas: 
  
