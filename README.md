@@ -16,7 +16,7 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 </div>
 
 ### Estructura de Datos
-#### 1. [Trie]()
+#### 1. [Trie](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)
 #### 2. Segment Tree
 #### 3. Union Find
 #### 4. BIT
