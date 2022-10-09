@@ -34,4 +34,17 @@
   * Debe ser una operacion interna por lo cual cada resultado de un aoperacion debe pertenecer al mismo conjunto. 
 
 
+  ### Ejemplo 
+  La sigueiente imagen suponemos que queremos encontrar la frecuencia acumulada en el índice 13, es decir, la suma de las primeras 13 frecuencias. En notación binaria, 13 es igual a $1101$. 
+  
+ ![alt text](https://images.ctfassets.net/piwi0eufbb2g/3x4z986CTmMGWH50X7mp9q/78e572d03601658d4ec6b5353974c85c/bitval.gif)
+ 
+ ### Aplicaciones 
+ Este algoritmo se puede usar para resolver los siguiente problemas: 
+ 
+ * Gráfico de clasificación de burbujas
+ * Inventario
+ * Conjunto de pedido
+ * DQuery
+ 
 </div>
