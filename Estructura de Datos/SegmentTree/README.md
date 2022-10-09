@@ -32,6 +32,6 @@ Un conjunto de números es un monoide si es que es un semigrupo. Un monoide debe
 
 ### Ejemplo
 En la siguiente imagen se muestra un árbol binario que se genera con solo $n=8$  
-![alt text](cur=https://libreim.github.io/assets/images/blog/segment_trees/segment_trees_visualizacion.png)
+
 
 </div>
