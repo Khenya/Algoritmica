@@ -4,7 +4,7 @@
  
 </div>
 
-### Concepto
+### Introducción
 Un Segment Tree es una estructura de datos en la que almacenamos los datos de un conjunto y los resultados de las operaciones permitidas entre ellos en distintos nodos 
 los cuales se encuentran en un árbol. La complejidad algoritmica de esta estructura de datos es O(log(n)).
 
@@ -30,6 +30,8 @@ Un conjunto de números es un monoide si es que es un semigrupo. Un monoide debe
   
   * Debe ser una operacion interna por lo cual cada resultado de un aoperacion debe pertenecer al mismo conjunto. 
 
-
+### Ejemplo
+En la siguiente imagen se muestra un árbol binario que se genera con solo $n=8$  
+![alt text](cur=https://libreim.github.io/assets/images/blog/segment_trees/segment_trees_visualizacion.png)
 
 </div>
