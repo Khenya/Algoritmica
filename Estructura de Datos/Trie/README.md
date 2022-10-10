@@ -26,7 +26,40 @@ Algunas de sus ventajas son:
 4) Al estar conformada por nodos de tal manera que unos estén conectados con otros formando ramas. Lo cual ayuda a que cada rama debe conformar una palabra.
 5) Al cada nodo contenga un caracter es posible marcar el final de palabra en cada nodo. Lo cual nos ayuda a ahorrarmemoria, logrando que nuestro algoritmo sea más veloz.
 ### Ejemplo
+
+Tenemos las siguientes palabras: 
+
+* how
+* hi
+* her
+* hellow
+* see
+* so
+ 
 ![alt text](https://programmerclick.com/images/124/07b979885b56d487a213198d03e6f86c.png)
+
+**Primer paso**
+
+En el ejemplo partimos del nodo inicial con un **/** para demostrar que esta basio ese nodo.
+
+**Segundo paso**
+
+Proseguimos a ordenar las palabras alfabeticamente:
+
+* hellow
+* her
+* hi
+* how
+* see
+* so
+
+**Tercer paso**
+
+Proseguir a insertar las palabras al Trie. 
+
+Colocamos primero  **hellow**. Despues **her** ahorrando nodos para la **h** y **e**, solo aumentando un nodo para la letra **r**. Hacemos lo mismo con la palabra **hi**, nos ahorramos la letra **h** colocando solo la letra **i**. Seguimos este patron hasta insertar todas las palabras en el árbol.
+
+Este es un claro ejemplo del Tie Array, ya que esta ordenado alfabeticamente las palabras. Los nodos en naranja son los nodos que marcan el final de una palabra.
 
 ### Aplicaciones
 Algunas de las aplicaciones de la estructura de datos Trie son:
