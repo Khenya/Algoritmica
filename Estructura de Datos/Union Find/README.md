@@ -22,7 +22,13 @@ Union Find es una estructura de datos donde cada conjunto está representado por
 
 * Union combina dos árboles en uno uniendo la raíz de un árbol con la raíz del otro.
 
+La complejidad algoritmica del Union Find se divide en dos partes. Union tiene un complejidad de $O(1)$. Find tiene una complejidad de $O(h)$, donde $h$ es el nodoiAltura del árbol
+
 ### Ejemplo
+
+Dado que los dos nodos están en progresounionAl operar, siempre deseleccionamos los nodos. El árbol donde se empalma al nodo j. Debajo del árbol, esto puede hacer que un árbol sea especial. Delgado y alto, Es decir, su $h$ muy grande.
+
+![alt text](https://programmerclick.com/images/591/9cdd3c534f82239cce5558ab338c76a7.JPEG)
 
 ### Aplicaciones
 * Implementando Algoritmo de Kruskal para encontrar el árbol de expansión mínimo de un graph.
