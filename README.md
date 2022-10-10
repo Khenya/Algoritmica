@@ -16,9 +16,14 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 </div>
 
 ### [Estructura de Datos](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos)
+
+</div>
+
 #### 1. [Trie](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)
 #### 2. [Segment Tree](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/SegmentTree)
 #### 3. [Union Find](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Union%20Find)
 #### 4. [BIT](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/BIT)
+
+</div>
 
 ### [Bactracking](https://github.com/Khenya/Algoritmica/tree/main/Bactracking)
