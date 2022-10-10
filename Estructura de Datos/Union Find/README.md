@@ -30,6 +30,24 @@ Dado que los dos nodos están en progresounionAl operar, siempre deseleccionamos
 
 ![alt text](https://programmerclick.com/images/591/9cdd3c534f82239cce5558ab338c76a7.JPEG)
 
+Por esta razón, necesitamos ajustar constantemente el árbol para hacerlo ligeramenteponerse en cuclillas. Algunos, como se muestra en la siguienet imagen.
+
+![alt text](https://programmerclick.com/images/682/c3f1cb53a079e3bc66bb27cd349b25a2.JPEG)
+
+Cuando cambiamos el rango del arbol mejoramos: 
+
+* Autorizado union. La operación está en curso union. Al operar, primero puede determinar el tamaño del árbol donde se encuentra el nodo y conectar el árbol con un tamaño pequeño a un árbol con un tamaño grande.
+
+* compresión de ruta en cursofindDurante la operación, después de encontrar el nodo raíz, haga un bucle de todos los nodos bajo la ruta al nodo raíz.
+
+Gracias a LA estructura de datos Union Find pasamos de un arbol asi: 
+
+![alt text](https://programmerclick.com/images/579/ebc89dad15ef964c449b1343e91ce53b.JPEG)
+
+A alogo asi: 
+
+![alt text](https://programmerclick.com/images/793/310fa9efa8087b426b3dea12bb19f2d9.JPEG)
+
 ### Aplicaciones
 * Implementando Algoritmo de Kruskal para encontrar el árbol de expansión mínimo de un graph.
 * Ciclo de detección en un graph no dirigido.
