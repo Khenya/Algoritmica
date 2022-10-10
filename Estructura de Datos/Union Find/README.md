@@ -26,6 +26,8 @@ Union Find es una estructura de datos donde cada conjunto está representado por
 
 ### Aplicaciones
 * Implementando Algoritmo de Kruskal para encontrar el árbol de expansión mínimo de un graph.
-* Ciclo de detección en un graph no dirigido
+* Ciclo de detección en un graph no dirigido.
+* Percolation.
+* Dynamic connectivity.
 
 </div>
