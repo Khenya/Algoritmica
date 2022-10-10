@@ -5,7 +5,7 @@
     
 </div>
 
-### Concepto
+### Introducción
 Union Find es una estructura de datos enfocada a identificar qué elementos de un conjunto se encuentran en un subgrupo especificado. Para entender el objetivo de Union Find, debemos volver al concepto de grafo. En Union Find podemos decir que construiremos diversos grafos e identificaremos a qué grafo pertenece qué nodo.
 
   En la estructura Union Find, existen nodos padres y nodos hijos. Cada nodo existente tiene un solo un padre y puede o no tener hijos. Los nodos hijos pueden tener un mismo nodo padre. Al inicio de la estructura cada nodo es su propio padre y solo tienen un hijo que es el mismo, esto se puede mantener.
@@ -21,4 +21,11 @@ Union Find es una estructura de datos donde cada conjunto está representado por
 * Find sigue a los nodos padre hasta que llega a la raíz.
 
 * Union combina dos árboles en uno uniendo la raíz de un árbol con la raíz del otro.
+
+### Ejemplo
+
+### Aplicaciones
+* Implementando Algoritmo de Kruskal para encontrar el árbol de expansión mínimo de un graph.
+* Ciclo de detección en un graph no dirigido
+
 </div>
