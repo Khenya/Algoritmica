@@ -28,6 +28,6 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 
 ### [Bactracking](https://github.com/Khenya/Algoritmica/tree/main/Bactracking)
 
-### [Programación Dinamica](https://github.com/Khenya/Algoritmica/tree/main/Bactracking)
+### [Programación Dinamica](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica)
 
 </div>
