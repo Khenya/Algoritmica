@@ -1,6 +1,6 @@
 <div align="center">
   
-  ## Estructura De Datos
+  ## Programación Dinamica
     
 </div>
 
