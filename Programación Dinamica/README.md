@@ -6,11 +6,12 @@
 
 ### Introducción
 
- En esta carpeta se encuentran cuatro de las estructura de datos más importantes. Cada estructura de datos contiene su propio README.md el que contiene una breve explicación de como funciona esa estructura, con sus aplicaciones y un ejemplo.
+En informática, la programación dinámica es un método para reducir el tiempo de ejecución de un algoritmo mediante la utilización de subproblemas superpuestos y subestructuras óptimas, como se describe a continuación.
+
+ En esta carpeta se encuentran distintos algoritmos acerca de la Programación Dinámica. Cada algoritmoscuenta con su propio README.md el que contiene una breve explicación de como funciona esa estructura, con sus aplicaciones y un ejemplo.
  
- 1. [Trie](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)
- 2. [Segment Tree](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/SegmentTree)
- 3. [Union Find](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Union%20Find)
- 4. [BIT](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/BIT)
+ 1. [DP](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)
+ 2. [Busqueda Binaria](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/SegmentTree)
+
 
 </div>
