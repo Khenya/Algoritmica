@@ -24,9 +24,9 @@ Algunas de sus ventajas son:
 
 
 ### Aplicaciones
-Algunas de las aplicaciones de la estructura de datos Trie son:
+Algunas de las aplicaciones del digit DP son:
 
-* El problema de las 8 reinas.
-* Encontrar la ruta más corta en un grafo. 
-* Resolver un sudoku.
+* Pruebas matemáticas.
+* Contar la cantidad de números que sean divisibles entre n.
+* Se utiliza en el banco.
 </div>
