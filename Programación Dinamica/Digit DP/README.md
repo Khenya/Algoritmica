@@ -29,4 +29,11 @@ Algunas de las aplicaciones del digit DP son:
 * Pruebas matemáticas.
 * Contar la cantidad de números que sean divisibles entre n.
 * Se utiliza en el banco.
+
+### Bibibliografia
+* [video 1](https://youtu.be/L1ZC9MI5yhY)
+* [video 2](https://youtu.be/Pa4YwO8B8-w)
+* [Tutorial 1](https://codeforces.com/blog/entry/53960)
+* [tutorial 2](https://codeforces.com/blog/entry/77096)
+* [tutorial 3](https://codeforces.com/blog/entry/8221)
 </div>
