@@ -1,0 +1,4 @@
+Una solución de programación dinámica que funciona para números negativos, positivos y repetidos
+El problema SUBSET-SUM implica determinar si un subconjunto de una lista de enteros puede sumar o no un valor objetivo. Por ejemplo, considere la lista de nums = [1, 2, 3, 4]. Si el target = 7, hay dos subconjuntos que logran esta suma: {3, 4}y {1, 2, 4}. Si target = 11, no hay soluciones.
+
+En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard : si hay nnúmeros enteros en la numslista, existen 2^n — 1subconjuntos que deben verificarse (excluyendo el conjunto vacío). En este artículo, vamos a ver un método de resolución más eficiente usando programación dinámica (DP). Sin embargo, a diferencia de la mayoría de los tutoriales, no solo determinaremos si existe una solución, sino que veremos cómo descubrir todas las soluciones . El algoritmo funciona para valores de entrada negativos y positivos, así como para repetir enteros no únicos en nums.
