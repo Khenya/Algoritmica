@@ -35,4 +35,5 @@ Algunas de las aplicaciones del digit DP son:
 * [video 2](https://youtu.be/Pa4YwO8B8-w)
 * [Tutorial 1](https://codeforces.com/blog/entry/53960)
 * [Tutorial 2](https://codeforces.com/blog/entry/77096)
+* [Dígito DP | Introducción - Acervo Lima](https://es.acervolima.com/digito-dp-introduccion/)
 </div>
