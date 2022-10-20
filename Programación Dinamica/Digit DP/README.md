@@ -34,6 +34,6 @@ Algunas de las aplicaciones del digit DP son:
 * [video 1](https://youtu.be/L1ZC9MI5yhY)
 * [video 2](https://youtu.be/Pa4YwO8B8-w)
 * [Tutorial 1](https://codeforces.com/blog/entry/53960)
-* [tutorial 2](https://codeforces.com/blog/entry/77096)
-* [tutorial 3](https://codeforces.com/blog/entry/8221)
+* [Tutorial 2](https://codeforces.com/blog/entry/77096)
+* [Tutorial 3](https://codeforces.com/blog/entry/8221)
 </div>
