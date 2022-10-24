@@ -48,7 +48,9 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
    Para lograr hacer esta tabla primero debemos ordenar el array y ponerlo en fila al lado izquierdo de la tabla y dependiendo al numreo que queremos llegar a sumar 
    debemos ir de 0 a x, en este caso es de 0 a 6.
    
-   La fila del 0 siempre sera $1$ porque 
+   La fila del 0 siempre sera $1$ porque podemos generar un 0 con cualquier númreo.
+   Lo que determina si podemos o no generar una suma que de exactamente 6, el la equina inferior derecha, porque al llegar ahi nosotros ya tratamos de sumar 6 con todos los números que poseiamos en el array. 
+   en elte caso fue posible 
 
 </ol>
   
