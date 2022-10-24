@@ -1,6 +1,6 @@
 <div align="center">
   
-  ## Segment Tree
+  ## Edit Distance
  
 </div>
 
