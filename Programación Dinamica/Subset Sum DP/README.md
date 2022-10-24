@@ -28,6 +28,9 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
    Ddo la lista de numreos: 
    $$nums = [1, 2, 3, 4]$$
    Si el $target = 7$, hay dos subconjuntos que logran esta suma: {3, 4}y {1, 2, 4}. Si $target = 11$, no hay soluciones.
+   
+   ![alt text](https://algocoding.files.wordpress.com/2015/05/subset_sum_11.png)
+
 </ol>
   
 ### Ventajas
