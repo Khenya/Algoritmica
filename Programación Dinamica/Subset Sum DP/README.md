@@ -50,7 +50,8 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
    
    La fila del 0 siempre sera $1$ porque podemos generar un 0 con cualquier númreo.
    Lo que determina si podemos o no generar una suma que de exactamente 6, el la equina inferior derecha, porque al llegar ahi nosotros ya tratamos de sumar 6 con todos los números que poseiamos en el array. 
-   en elte caso fue posible 
+   
+   En elte caso fue posible llegar a 6 con dos conjuntos diferentes $[0,1,2,3]$ y $[0,2,4]$. 
 
 </ol>
   
