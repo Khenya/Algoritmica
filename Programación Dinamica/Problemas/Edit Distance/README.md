@@ -21,7 +21,7 @@ Por ejemplo, deja X ser 'gatito', y Y estar sentado'. La distancia de Levenshtei
 Tiene una complejidad de: $O(n)=m*n$
 
 ### Bibliografia
-* https://www.techiedelight.com/es/levenshtein-distance-edit-distance-problem/
+* [El problema de la distancia de Levenshtein (Editar distancia)](https://www.techiedelight.com/es/levenshtein-distance-edit-distance-problem/)
 
 </div>
 
