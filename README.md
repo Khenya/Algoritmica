@@ -38,4 +38,4 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 
 #### 2. [Subset Sum DP ](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Subset%20Sum%20DP)
 
-### [Busqueda Binaria]()
+### [Busqueda Binaria](https://github.com/Khenya/Algoritmica/tree/main/Busqueda%20Binaria)
