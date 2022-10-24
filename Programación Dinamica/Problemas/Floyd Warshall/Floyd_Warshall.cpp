@@ -1,43 +1,21 @@
-#include <iostream>
-#include <string>
-#include <climits>
-using namespace std;
+// Declaraciones en el archivo .h
+int cn; //cantidad de nodos
+vector< vector<int> > ady;
  
-// Función para encontrar la mejor manera de cortar una varilla de longitud `n`
-// donde la barra de longitud `i` tiene un costo `price[i-1]`
-int rodCut(int price[], int n)
-{
-    // caso base
-    if (n == 0) {
-        return 0;
-    }
+// Devuelve una matriz con las distancias mínimas de cada nodo al resto de los vértices.
+vector< vector<int> > Grafo :: floydWarshall(){
+    vector< vector<int> > path = this->ady;
  
-    int maxValue = INT_MIN;
- 
-    // uno por uno, divide la barra dada de longitud `n` en dos partes
-    // de longitud (1, n-1), (2, n-2), (3, n-3), … ,(n-1, 1), (n, 0)
-    // y tomar el máximo
-    for (int i = 1; i <= n; i++)
-    {
-        // la barra de longitud `i` tiene un costo `price[i-1]`
-        int cost = price[i - 1] + rodCut(price, n - i);
- 
-        if (cost > maxValue) {
-            maxValue = cost;
-        }
-    }
- 
-    return maxValue;
-}
- 
-int main()
-{
-    int price[] = { 1, 5, 8, 9, 10, 17, 17, 20 };
- 
-    // longitud de la varilla
-    int n = 4;
- 
-    cout << "Profit is " << rodCut(price, n);
- 
-    return 0;
+    /* No tendría porqué ser necesario si ya hay ceros en las diagonales de ady */
+    for(int i = 0; i < cn; i++)
+        path[i][i] = 0;
+    
+    for(int k = 0; k < cn; k++)
+        for(int i = 0; i < cn; i++)
+            for(int j = 0; j < cn; j++){
+                int dt = path[i][k] + path[k][j];
+                if(path[i][j] > dt)
+                    path[i][j] = dt;
+            }
+    return path;
 }
