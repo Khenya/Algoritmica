@@ -45,7 +45,10 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
  
    ![alt text](https://algocoding.files.wordpress.com/2015/05/subset_sum_11.png)
    
-   Para lograr hacer la tabl 
+   Para lograr hacer esta tabla primero debemos ordenar el array y ponerlo en fila al lado izquierdo de la tabla y dependiendo al numreo que queremos llegar a sumar 
+   debemos ir de 0 a x, en este caso es de 0 a 6.
+   
+   La fila del 0 siempre sera $1$ porque 
 
 </ol>
   
