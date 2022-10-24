@@ -18,7 +18,7 @@ Por ejemplo, deja X ser 'gatito', y Y estar sentado'. La distancia de Levenshtei
 
  ### Complejidad Algoritmica
 
-Tiene una complejidad de $O(n)=m*n$
+Tiene una complejidad de: $O(n)=m*n$
 
  
 
