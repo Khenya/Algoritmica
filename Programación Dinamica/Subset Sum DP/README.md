@@ -54,13 +54,6 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
    En elte caso fue posible llegar a 6 con dos conjuntos diferentes $[0,1,2,3]$ y $[0,2,4]$. 
 
 </ol>
-  
-### Ventajas
-Algunas de sus ventajas son:
-
-1) Complejidad algoritmica. Al eliminar todas las ramas que no cumplan los reqisitos la complejidad lineal no supera $O(2^{n})$. 
-2) La mayor ventaja es que nos da todo el árbol de soluciones.
-
 
 ### Aplicaciones
 Algunas de las aplicaciones del digit DP son:
