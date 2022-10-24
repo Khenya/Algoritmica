@@ -12,10 +12,22 @@
 
 En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard. Es similar al problema de la mochila. 
 
-### Ejemplo
+Este algoritmo es Greedy Codicioso. Esto significa que:
+* Siempre voy a pensar que soy experto.
+* El array debe estar ordendo.
+* Va ir sumando de mayor a menor.
+
+### Ejemplos 
   Dado un array de números enteros:
   
-
+   $$ [7,3,2,1,0,-2]$$ 
+  
+  queremos verificar si existe una combinación de números sumados que nos den exactamente $x$.
+  
+  
+   Ddo la lista de numreos: 
+   $$nums = [1, 2, 3, 4]$$
+   Si el $target = 7$, hay dos subconjuntos que logran esta suma: {3, 4}y {1, 2, 4}. Si $target = 11$, no hay soluciones.
 </ol>
   
 ### Ventajas
@@ -35,7 +47,6 @@ Algunas de las aplicaciones del digit DP son:
 ### Bibibliografia
 * [video 1](https://youtu.be/L1ZC9MI5yhY)
 * [video 2](https://youtu.be/Pa4YwO8B8-w)
-* [Tutorial 1](https://codeforces.com/blog/entry/53960)
-* [Tutorial 2](https://codeforces.com/blog/entry/77096)
+* [Tutorial 1](https://towardsdatascience.com/how-to-find-all-solutions-to-the-subset-sum-problem-597f77677e45)
 * [Dígito DP | Introducción - Acervo Lima](https://es.acervolima.com/digito-dp-introduccion/)
 </div>
