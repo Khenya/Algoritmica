@@ -1,4 +1,37 @@
-Una solución de programación dinámica que funciona para números negativos, positivos y repetidos
-El problema SUBSET-SUM implica determinar si un subconjunto de una lista de enteros puede sumar o no un valor objetivo. Por ejemplo, considere la lista de nums = [1, 2, 3, 4]. Si el target = 7, hay dos subconjuntos que logran esta suma: {3, 4}y {1, 2, 4}. Si target = 11, no hay soluciones.
+<div align="center">
+  
+  ## Dgit DP
+    
+</div>
 
-En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard : si hay nnúmeros enteros en la numslista, existen 2^n — 1subconjuntos que deben verificarse (excluyendo el conjunto vacío). En este artículo, vamos a ver un método de resolución más eficiente usando programación dinámica (DP). Sin embargo, a diferencia de la mayoría de los tutoriales, no solo determinaremos si existe una solución, sino que veremos cómo descubrir todas las soluciones . El algoritmo funciona para valores de entrada negativos y positivos, así como para repetir enteros no únicos en nums.
+### Introducción
+ 
+ Una solución de programación dinámica que funciona para números negativos, positivos y repetidos.
+ 
+ El problema SUBSET-SUM implica determinar si un subconjunto de una lista de enteros puede sumar o no un valor objetivo. 
+
+En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard.
+
+</ol>
+  
+### Ventajas
+Algunas de sus ventajas son:
+
+1) Complejidad algoritmica. Al eliminar todas las ramas que no cumplan los reqisitos la complejidad lineal no supera $O(2^{n})$. 
+2) La mayor ventaja es que nos da todo el árbol de soluciones.
+
+
+### Aplicaciones
+Algunas de las aplicaciones del digit DP son:
+
+* Pruebas matemáticas.
+* Contar la cantidad de números que sean divisibles entre n.
+* Se utiliza en el banco.
+
+### Bibibliografia
+* [video 1](https://youtu.be/L1ZC9MI5yhY)
+* [video 2](https://youtu.be/Pa4YwO8B8-w)
+* [Tutorial 1](https://codeforces.com/blog/entry/53960)
+* [Tutorial 2](https://codeforces.com/blog/entry/77096)
+* [Dígito DP | Introducción - Acervo Lima](https://es.acervolima.com/digito-dp-introduccion/)
+</div>
