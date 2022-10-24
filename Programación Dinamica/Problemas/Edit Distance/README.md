@@ -14,6 +14,8 @@ Para esto necesitamos construir un árbol con todas las posibilidades, ya partir
 
 Por ejemplo, deja X ser 'gatito', y Y estar sentado'. La distancia de Levenshtein entre X y Y es 3. El i'th fila y j'th La columna de la siguiente tabla muestra la distancia de Levenshtein de la subcadena X[0…i-1] y Y[0…j-1].
 
+(https://www.techiedelight.com/wp-content/uploads/Edit-Distance.png)
+
  ### Aplicaciones 
  Este algoritmo se puede usar para resolver los siguiente problemas: 
  
