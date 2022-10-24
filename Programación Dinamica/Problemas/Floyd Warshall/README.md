@@ -12,6 +12,8 @@ Floyd Warshall es un algoritmo para encontrar el camino más corto entre todos l
  
 Tiene una complejidad de: $O(n)=n^3$
 
- 
+### Bibliopgrafia
+
+* [Algoritmo de Floyd-Warshall](https://es.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall#C%C3%B3digo_en_C++)
 
 </div>
