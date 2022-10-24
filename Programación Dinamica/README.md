@@ -12,7 +12,7 @@ En informática, la programación dinámica es un método para reducir el tiempo
  
  1. [Digit DP](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Digit%20DP)
  2. [Subset Sum DP](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Subset%20Sum%20DP)
- 3. [Problemas]()
+ 3. [Problemas](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Problemas)
 
 
 </div>
