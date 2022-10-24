@@ -15,7 +15,7 @@ Es muy importante recalcar que no es necesariamente contigua o única.
 
 La longitud de LIS para {10,22,9,33,50,41,60,80} es 6 y LIS es {10,22,33,50,60,80}
 
-(https://media.geeksforgeeks.org/wp-content/cdn-uploads/Longest-Increasing-Subsequence.png)
+![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Longest-Increasing-Subsequence.png)
 
 
  ### Complejidad Algoritmica
