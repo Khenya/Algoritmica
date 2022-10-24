@@ -29,7 +29,7 @@ Consideremos el número como una secuencia de dígitos. Llamemos a la secuencia 
 Ingresar digitos. 
 Digamos que durante la construcción de la secuencia, actualmente estamos en la posición $pos$. Ya hemos colocado algunos dígitos en la posición del 1 al $pos-1$. Así que ahora estamos tratando de colocar un dígito en la posición actual $pos$. Si supiéramos toda la secuencia que hemos construido hasta ahora hasta la posición $pos-1$, entonces podríamos averiguar fácilmente qué dígitos podemos colocar ahora.
 
-Puede ver que, en la secuencia $sq$, el dígito más a la izquierda es en realidad el dígito más significativo. Y la importancia se reduce de izquierda a derecha. Entonces, si existe alguna posición $t (1<=t<pos)$ donde $sq[t] < b[t]$ entonces podemos colocar cualquier dígito en nuestra posición actual. Porque la secuencia ya se ha vuelto más pequeña que b sin importar qué dígito coloquemos en las últimas posiciones. Tenga en cuenta que $b[t]$ significa el dígito en la posición $t$ en el número $b$.
+Puede ver que, en la secuencia $sq$, el dígito más a la izquierda es en realidad el dígito más significativo. Y la importancia se reduce de izquierda a derecha. Entonces, si existe alguna posición $t$ (1 <=t <  pos) donde $sq[t]$ < $b[t]$ entonces podemos colocar cualquier dígito en nuestra posición actual. Porque la secuencia ya se ha vuelto más pequeña que b sin importar qué dígito coloquemos en las últimas posiciones. Tenga en cuenta que $b[t]$ significa el dígito en la posición $t$ en el número $b$.
 
 Pero si no hubo $t$ que satisficiera esa condición, entonces en la posición pos , no podemos colocar ningún dígito mayor que $b[pos]$. Porque entonces el número será mayor que $b$.
 
