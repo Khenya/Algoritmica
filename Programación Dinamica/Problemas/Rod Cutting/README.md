@@ -34,7 +34,7 @@ Cut           Profit
 
  ### Complejidad Algoritmica
  
-Tiene una complejidad de: $O(n)=n^3$
+Tiene una complejidad de: $O(n)=n^2$
 
 ### Bibliografia 
 
