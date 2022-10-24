@@ -58,12 +58,6 @@ Este algoritmo es Greedy Codicioso. Esto significa que:
 ### Ventajas 
 * Tiene una comlplejidad algoritmica de O(nW). Lo cual es imopresionante porque es muy veloz. La complejidad varia dependiendo del problema ya que depende no solo (linealmente) del número de elementos en nums, sino también (linealmente) de los valores de $numsy target$, ya que el número de columnas en la tabla es la distancia entre $target$ y la suma de los enteros negativos en $nums$.
 
-### Aplicaciones
-Algunas de las aplicaciones del digit DP son:
-
-* Pruebas matemáticas.
-* Contar la cantidad de números que sean divisibles entre n.
-* Se utiliza en el banco.
 
 ### Bibibliografia
 * [video 1](https://youtu.be/s6FhG--P7z0)
