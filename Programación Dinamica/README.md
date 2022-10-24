@@ -11,7 +11,7 @@ En informática, la programación dinámica es un método para reducir el tiempo
  En esta carpeta se encuentran distintos algoritmos acerca de la Programación Dinámica. Cada algoritmoscuenta con su propio README.md el que contiene una breve explicación de como funciona esa estructura, con sus aplicaciones y un ejemplo.
  
  1. [Digit DP](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Digit%20DP)
- 2. [Busqueda Binaria](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/SegmentTree)
+ 2. [Busqueda Binaria](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Subset%20Sum%20DP)
 
 
 </div>
