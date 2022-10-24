@@ -10,7 +10,7 @@
  
  El problema SUBSET-SUM implica determinar si un subconjunto de una lista de enteros puede sumar o no un valor objetivo. 
 
-En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard. Es similar al problema de la mochila. 
+En general, determinar si incluso hay soluciones para SUBSET-SUM es NP-hard. Esto quiere decir que si hay números enteros en la numslista, existen $2^n — 1$  subconjuntos que deben verificarse (excluyendo el conjunto vacío). Es similar al problema de la mochila. 
 
 Este algoritmo es Greedy Codicioso. Esto significa que:
 * Siempre voy a pensar que soy experto.
