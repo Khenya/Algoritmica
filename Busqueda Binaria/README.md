@@ -1,14 +1,15 @@
 <div align="center">
   
-  ## Segment Tree
+  ## Busqueda Binaria
  
 </div>
 
 ### Introducción
 
-En informática y matemáticas, es un algoritmo de búsqueda que encuentra la posición de un valor en un arreglo ordenada y compara el valor con el elemento en el medio de la matriz, si no son iguales, se descartará la mitad cuyo valor no se pueda quitar y se seguirá buscando el resto de las mitades hasta encontrar un valor.
+La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada de elementos. Funciona dividiendo repetidamente la parte de la lista que el elemento puede contener por la mitad, hasta que las ubicaciones posibles se reducen a una sola. Usamos la búsqueda binaria en el juego de adivinanzas de la lección introductoria.
 
-Compare el valor con el elemento en el medio de la matriz, si no son iguales, la mitad que no puede eliminar el valor se descartará y continuará buscando con la otra mitad hasta encontrar el valor.
+Una de las maneras más comunes de usar la búsqueda binaria es para encontrar un elemento en un arreglo numerico.
+
 
 ### Ejemplo
 En la siguiente imagen se muestra un árbol binario que se genera con solo $n=8$, el   
@@ -50,8 +51,11 @@ Y la respuesta a nuestro querry seria $1$.
  * Ciencia de datos
  * Busqueda profunda
  * Ordenamiento de elementos
- * Búsqueda binaria
+ * [Coins And Triangle](https://vjudge.net/contest/520691#problem/E)
  
+ ### Bibliografia
+ 
+ * [Búsqueda binaria](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
 
 </div>
 
