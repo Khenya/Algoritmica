@@ -36,4 +36,4 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 
 #### 1. [Dígito DP](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Digit%20DP)
 
-#### 2. [Digit ]()
+#### 2. [Subset Sum DP ]()
