@@ -61,6 +61,17 @@
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal14.jpg?w=768&h=304)
  
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal14.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal16.jpg?w=768&h=367)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal17.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal18.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal19.jpg?w=500&h=237)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal20.jpg?w=500&h=191)
  ### Bibliografia
  
  1. [Tutorial 1](https://jariasf.wordpress.com/2012/04/19/arbol-de-expansion-minima-algoritmo-de-kruskal/)
