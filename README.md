@@ -40,3 +40,8 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 #### 3. [Problemas](https://github.com/Khenya/Algoritmica/tree/main/Programaci%C3%B3n%20Dinamica/Problemas)
 
 ### [Busqueda Binaria](https://github.com/Khenya/Algoritmica/tree/main/Busqueda%20Binaria)
+
+### [Teoria de Grafos]()
+
+#### [Kruskal]()
+#### [Prim]()
