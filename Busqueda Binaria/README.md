@@ -17,11 +17,19 @@ La busqueda binaria tiene cuatro caracteristicas las cuales son:
 
 Una de las maneras más comunes de usar la búsqueda binaria es para encontrar un elemento en un arreglo numerico.
 
+La búsqueda binaria no tendría que examinar todo el areglo numerico, incluso en el peor de los casos.
 
-### Ejemplo
+### Ejemplos
 
+Digamos que estoy pensando en un número entre uno y 100, justo como en el juego de adivinar. Si ya intentaste decir 25 y te dije que mi número es más grande, y ya intentaste decir 81 y te dije que mi número es más chico, entonces los números en el rango de 26 a 80 son los únicos intentos razonables. Aquí, la sección roja de la recta numérica contiene los intentos razonables, y la sección negra muestra los intentos que hemos descartado:
   
- ![alt text](https://libreim.github.io/assets/images/blog/segment_trees/segment_trees_visualizacion.png)
+ ![alt text](https://cdn.kastatic.org/ka-perseus-images/91981c0666c061815dd0e9b473ad0570a1803a45.png)
+ 
+ En cada turno, haces un intento que divide el conjunto de intentos razonables en dos rangos de aproximadamente el mismo tamaño. Si tu intento no es correcto, entonces te digo si es muy alto o muy bajo, y puedes eliminar aproximadamente la mitad de los intentos razonables. Por ejemplo, si el rango actual de los intentos razonables es de 26 a 80, intentarías adivinar a la mitad del camino, con la siguiente formula: 
+ 
+ $$(ini,fin)/2$$
+ 
+ (26 + 80) / 2(26+80)/2left parenthesis, 26, plus, 80, right parenthesis, slash, 2, o 53. Si después te digo que 53 es demasiado alto, puedes eliminar todos los números de 53 a 80, dejando 26 a 52 como el nuevo rango de intentos razonables, reduciendo a la mitad el tamaño del rango.
 
  ### Aplicaciones 
  Este algoritmo se puede usar para resolver los siguiente problemas: 
