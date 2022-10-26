@@ -29,8 +29,12 @@ Digamos que estoy pensando en un número entre uno y 100, justo como en el juego
  
  $$(ini,fin)/2$$
  
- (26 + 80) / 2(26+80)/2left parenthesis, 26, plus, 80, right parenthesis, slash, 2, o 53. Si después te digo que 53 es demasiado alto, puedes eliminar todos los números de 53 a 80, dejando 26 a 52 como el nuevo rango de intentos razonables, reduciendo a la mitad el tamaño del rango.
-
+ En este caso la formula seria la siguiente: $(26 + 80) / 2 = 53$. Si después te digo que 53 es demasiado alto, puedes eliminar todos los números de 53 a 80, dejando 26 a 52 como el nuevo rango de intentos razonables, reduciendo a la mitad el tamaño del rango. 
+ 
+ ![alt text](https://cdn.kastatic.org/ka-perseus-images/a376ce2d2746fc126293571121a818f395a97354.png)
+ 
+ De esta formula seguiria el juego, hasta encontrar nuestro númeo.
+ 
  ### Aplicaciones 
  Este algoritmo se puede usar para resolver los siguiente problemas: 
  
