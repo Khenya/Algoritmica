@@ -15,8 +15,7 @@
  1. Ordenar las aristas por el peso (Máximo o mínimo), haviendo un Sort a las aristas.
  2. Crear un union Find (# de los nodos).
  3. Unir los nodos a partir de las aristas minimas o maximas.
- 
- 3.1. Preguntar si los nodos ya están conectados
+ 4. Preguntar si los nodos ya están conectados
 
  ### Ejemplo
  
@@ -32,6 +31,25 @@
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal0.jpg?w=500&h=243)
  
+ Finalmente preguntar si estan conectados y si no lo estan, debemos conectarlos: 
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal01.jpg?w=768&h=304)
+ 
+ Este ultimo paso lo debemos repetir hasta conectar todos los nodos:
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal2.jpg?w=500&h=242)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal3.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal5.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal6.jpg?w=768&h=367)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal7.jpg?w=768&h=304)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal8.jpg?w=768&h=367)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal10.jpg?w=768&h=367)
  
  ### Bibliografia
  
