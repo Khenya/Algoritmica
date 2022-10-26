@@ -6,8 +6,22 @@
 
 ### Introducción
 
- En esta carpeta se encuentran cuatro de las estructura de datos más importantes. Cada estructura de datos contiene su propio README.md el que contiene una breve explicación de como funciona esa estructura, con sus aplicaciones y un ejemplo.
+ El algoritmo Kruskal es un algoritmo de teoria de grafos, es similar al algoritmo UnionFind. Con el cual podemos hallar el árbol de Expansión Mínimo o Máximo. 
  
+ Con el Kruskal solo tenemos una opción de camino. 
+ 
+ ### Pasos 
+ 
+ 1. Ordenar las aristas por el peso (Máximo o mínimo), haviendo un Sort a las aristas.
+ 2. Crear un union Find (# de los nodos).
+ 3. Unir los nodos a partir de las aristas minimas o maximas.
+ 4. Preguntar si los nodos ya están conectados
+
+ ### Ejemplo
+ 
+ Dado el siguiente grafo, deseamos hallar el árbol de éxpancion mínimo.
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/grafo.jpg?w=500&h=209)
  ### Bibliografia
  
  1. [Tutorial 1](https://jariasf.wordpress.com/2012/04/19/arbol-de-expansion-minima-algoritmo-de-kruskal/)
