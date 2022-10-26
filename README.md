@@ -43,5 +43,5 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 
 ### [Teoria de Grafos]()
 
-#### [Kruskal]()
-#### [Prim]()
+#### 1. [Kruskal]()
+#### 2. [Prim]()
