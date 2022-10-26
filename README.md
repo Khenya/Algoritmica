@@ -43,5 +43,5 @@ Cada algoritmo y/o estructura de datos contiene un archivo README separado donde
 
 ### [Teoria de Grafos]()
 
-#### 1. [Kruskal]()
-#### 2. [Prim]()
+#### 1. [Kruskal](https://github.com/Khenya/Algoritmica/tree/main/Teoria%20De%20Grafos/Kruskal)
+#### 2. [Prim](https://github.com/Khenya/Algoritmica/tree/main/Teoria%20De%20Grafos/Prim)
