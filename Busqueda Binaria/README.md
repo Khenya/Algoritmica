@@ -15,8 +15,6 @@ La busqueda binaria tiene cuatro caracteristicas las cuales son:
 * Funcion. Lo más importante en el codigo del algoritmo es la funcion, con la cual podemos dar los valores de verdadero y falso.
 * Asume que el antecedente o posterior tiene el mismo valor dado por la funcion.
 
-Una de las maneras más comunes de usar la búsqueda binaria es para encontrar un elemento en un arreglo numerico.
-
 La búsqueda binaria no tendría que examinar todo el areglo numerico, incluso en el peor de los casos.
 
 ### Ejemplos
@@ -37,10 +35,8 @@ Digamos que estoy pensando en un número entre uno y 100, justo como en el juego
  
  ### Aplicaciones 
  Este algoritmo se puede usar para resolver los siguiente problemas: 
- 
- * Ciencia de datos
- * Busqueda profunda
- * Ordenamiento de elementos
+
+ * Una de las maneras más comunes de usar la búsqueda binaria es para encontrar un elemento en un arreglo numerico.
  * [Coins And Triangle](https://vjudge.net/contest/520691#problem/E)
  
  ### Bibliografia
