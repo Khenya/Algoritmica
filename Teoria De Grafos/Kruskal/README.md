@@ -41,9 +41,9 @@
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal3.jpg?w=768&h=304)
  
- ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal5.jpg?w=768&h=304)
- 
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal4.jpg?w=768&h=367)
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal5.jpg?w=768&h=304)
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal6.jpg?w=768&h=367)
  
