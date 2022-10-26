@@ -15,6 +15,7 @@
  1. Ordenar las aristas por el peso (Máximo o mínimo), haviendo un Sort a las aristas.
  2. Crear un union Find (# de los nodos).
  3. Unir los nodos a partir de las aristas minimas o maximas.
+ 
  3.1. Preguntar si los nodos ya están conectados
 
  ### Ejemplo
