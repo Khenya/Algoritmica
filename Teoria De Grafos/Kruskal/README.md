@@ -15,13 +15,23 @@
  1. Ordenar las aristas por el peso (Máximo o mínimo), haviendo un Sort a las aristas.
  2. Crear un union Find (# de los nodos).
  3. Unir los nodos a partir de las aristas minimas o maximas.
- 4. Preguntar si los nodos ya están conectados
+ 3.1. Preguntar si los nodos ya están conectados
 
  ### Ejemplo
  
  Dado el siguiente grafo, deseamos hallar el árbol de éxpancion mínimo.
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/grafo.jpg?w=500&h=209)
+ 
+ Como fue mencionado previamente el primer paso es ordenar las aristas por el peso, en este caso del menor peso al mayor.
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/tabla1.jpg)
+ 
+ Despues debemos crear el UnionFind 
+ 
+ ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal0.jpg?w=500&h=243)
+ 
+ 
  ### Bibliografia
  
  1. [Tutorial 1](https://jariasf.wordpress.com/2012/04/19/arbol-de-expansion-minima-algoritmo-de-kruskal/)
