@@ -8,6 +8,9 @@
 
 La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada de elementos. Funciona dividiendo repetidamente la parte de la lista que el elemento puede contener por la mitad, hasta que las ubicaciones posibles se reducen a una sola. 
 
+La busqueda binaria tiene tres caracteristicas las cuales son:
+
+
 Una de las maneras más comunes de usar la búsqueda binaria es para encontrar un elemento en un arreglo numerico.
 
 
