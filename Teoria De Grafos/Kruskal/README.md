@@ -72,13 +72,12 @@
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal19.jpg?w=500&h=237)
  
  ![alt text](https://jariasf.files.wordpress.com/2012/04/kruskal20.jpg?w=500&h=191)
+ 
+ 
  ### Bibliografia
  
  1. [Tutorial 1](https://jariasf.wordpress.com/2012/04/19/arbol-de-expansion-minima-algoritmo-de-kruskal/)
  2. [Video 1](https://youtu.be/71UQH7Pr9kU)
  3. [Video 2](https://youtu.be/fAuF0EuZVCk)
- 4. [BIT](https://github.com/Khenya/Algoritmica/tree/main/Estructura%20de%20Datos/BIT)
  
- 
-
 </div>
