@@ -54,6 +54,5 @@ A alogo asi:
 * Percolation.
 * Dynamic connectivity.
 * COVID, para ver encontrar el pasiente 0.
-* 
 
 </div>
