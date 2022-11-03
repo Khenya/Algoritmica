@@ -1,3 +1,13 @@
+<div align="center">
+  
+  ## Busqueda Binaria 
+ 
+    
+</div>
+
+### Introduccion
+La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada de elementos. Funciona al dividir repetidamente a la mitad la porción de la lista que podría contener al elemento, hasta reducir las ubicaciones posibles a solo una. Usamos la búsqueda binaria en el juego de adivinar en la lección introductoria.
+
 ### Pasos 
  
  1. Ordenar las aristas por el peso (Máximo o mínimo), haviendo un Sort a las aristas.
@@ -64,7 +74,5 @@
  
  ### Bibliografia
  
- 1. [Tutorial 1](https://jariasf.wordpress.com/2012/04/19/arbol-de-expansion-minima-algoritmo-de-kruskal/)
- 2. [Video 1](https://youtu.be/71UQH7Pr9kU)
- 3. [Video 2](https://youtu.be/fAuF0EuZVCk)
- 
+ 1. [Búsqueda binaria](https://es.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+ </div>
