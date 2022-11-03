@@ -48,4 +48,12 @@
  * Conjunto de pedido
  * DQuery
  
+
+### Bibibliografia
+* [video 1](https://youtu.be/WbafSgetDDk)
+* [video 2](https://youtu.be/DPiY9wFxGIw)
+* [video 3](https://youtu.be/2VLGbWcGMq0)
+* [Tutorial 1](https://www.educative.io/answers/what-is-a-binary-indexed-tree)
+* [Tutorial 2](https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+*
 </div>
