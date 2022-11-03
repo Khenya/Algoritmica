@@ -53,5 +53,7 @@ A alogo asi:
 * Ciclo de detección en un graph no dirigido.
 * Percolation.
 * Dynamic connectivity.
+* COVID, para ver encontrar el pasiente 0.
+* 
 
 </div>
