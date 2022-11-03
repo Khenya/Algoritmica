@@ -13,7 +13,7 @@
    
    Backtracking es una estructura parecida a un árbol, donde se eliminan todas las ramas que no cumplan los requisitos, prebiamente asignados, de cada problema. 
    
-   Bactracking al igual que la Fuerza Bruta utilizan la recursividad. Pero existen diferncias muy marcadas puesto que la Fuerza Bruta usa todas las soluciones posibles sin importar que esta solucion tenga o no sentido, mientras que Backtracking elimina todas las ramas que no cumplan los requisitos. 
+   Bactracking al igual que la Fuerza Bruta utilizan la recursividad. Pero existen diferncias muy marcadas puesto que la Fuerza Bruta usa todas las soluciones posibles sin importar que esta solucion tenga o no sentido, mientras que Backtracking elimina todas las ramas que no cumplan los requisitos, prebiamente establesidos. 
    
 ### Ventajas
 Algunas de sus ventajas son:
