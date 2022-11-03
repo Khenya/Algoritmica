@@ -2,16 +2,15 @@
 #define input freopen("in.txt", "r", stdin)
 #define output freopen("out.txt", "w", stdout)
 // Variables
-#define MAX_N 10000
+#define MAX_N 10000    // Maximo numero de vertices o nodos
 
 using namespace std; 
 
-
-int v[MAX_N];
+// parent y rango sirven para el union find 
 int parent[MAX_N];
 int rango[MAX_N];
 
-int N, E; 
+int n, m; // n numero de nodos y m numero de aristas 
 
 void init() {
     for(int i=0;  i<= MAX_N; i++) {
@@ -34,14 +33,6 @@ bool sameComponent(int nodeA,int nodeB) {
     return find(nodeA) == find(nodeB);
 }
 
-int sameComponent3(int nodeA,int nodeB) {
-    return parent[nodeA] == parent[nodeB];
-}
-//  No seguro
-int sameComponent2(int nodeA,int nodeB) {
-    return nodeA == nodeB;
-}
-
 void unionRango(int x,int y) {
     int xRaiz = find(x);
     int yRaiz = find(y);
@@ -58,30 +49,38 @@ void unionRango(int x,int y) {
 struct Arista{ 
     int origen;
     int destino; 
-    int peso; 
+    double peso; 
     Arista(){}
-
+    // sobrecarga del operador < para ordenar las aristas
+    // sort 
     bool operator<(const Arista &a) const {
-        return peso < a.peso;
+        if(peso == a.peso) {
+            return origen < a.origen;
+        } else {
+            return peso < a.peso;
+        }
     }
 }aristas[MAX_N]; 
 
 Arista MST[MAX_N]; // n-1 aristas 
 
-
-void kruskal(int nroNodos, int nroAristas) {
+int numAristasArbol;
+double kruskal(int nroNodos, int nroAristas) {
     
-    int origen, destino, peso;
+    int origen, destino;
+    double peso;
 
-    int total = 0;
+    double total = 0; // total del arbol de expansión minimo 
 
-    int numAristasArbol = 0;
+    numAristasArbol = 0; // contar el numero de aristas 
 
     init(); // Iniciar el union Find 
-    
-
-
-    sort(aristas,aristas + nroAristas);  // la arista con menor peso hasta la de mayor peso 
+    // sort(array, array+n)
+    // array = [a,b,c,d,e]
+    // n = 5
+    // sort(array, array+5)
+    sort(aristas,aristas + nroAristas); // ordena las aristas
+    // sor utiliza el operador < 
 
     for (int i = 0; i < nroAristas; i++)
     {
@@ -89,37 +88,29 @@ void kruskal(int nroNodos, int nroAristas) {
         destino = aristas[i].destino;
         peso = aristas[i].peso;
 
-        if(!sameComponent(origen,destino)) {
-            total+=peso; 
-            MST[numAristasArbol++] = aristas[i];
-            unionRango(origen,destino);
+        if(!sameComponent(origen,destino)) { // estos 2 dos nodos forman un ciclo 
+            total += peso; 
+            unionRango(origen,destino);  // unimos los nodos
+            MST[numAristasArbol] = aristas[i]; // Guardamos la arista agregada
+            numAristasArbol++; // incrementados la posicion para la futura arista
+            
         }
     }
-
-    if(numAristasArbol != nroNodos - 1 ) {
-        cout<<"no existe un arbol de expansion minima";
-    } else {
-        for(int i=0;i < nroNodos-1;i++) {
-            cout<<MST[i].origen<<" ";
-            cout<<MST[i].destino<<" ";
-            cout<<MST[i].peso<<endl;
-        }
-        cout<<total<<endl;
-    }
-
+    return total;
 }
-
 
 int main(){
     input;
-    cin>>N>>E;
-    for( int i = 0 ; i < E ; ++i ){
-        // scanf("%d %d %d" , &aristas[ i ].origen , &aristas[ i ].destino , &aristas[ i ].peso );
-        cin>>aristas[i].origen>>aristas[i].destino>>aristas[i].peso;
+    while(scanf("%d %d",&n,&m) != EOF) {
+        for(int i=0; i<m; i++) {
+            scanf("%d %d %lf",&aristas[i].origen,&aristas[i].destino,&aristas[i].peso);
+        }
+        printf("%.2lf\n",kruskal(n,m));
+        // Imprimo el arbol de expasion minimo
+        for(int i = 0 ;i <numAristasArbol;i++) {
+            cout<<MST[i].origen<<" "<<MST[i].destino<<" "<<MST[i].peso<<endl;
+        }
     }
-        
-    
-    kruskal(N,E);
 
     return 0;
 }
