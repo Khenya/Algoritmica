@@ -6,7 +6,7 @@
 
 ### Introducción
 Un Segment Tree es una estructura de datos en la que almacenamos los datos de un conjunto y los resultados de las operaciones permitidas entre ellos en distintos nodos 
-los cuales se encuentran en un árbol. La complejidad algoritmica de esta estructura de datos es O(log(n)).
+los cuales se encuentran en un árbol. La complejidad algoritmica de esta estructura de datos es $O(4+n+1)$.
 
   Al construir un Segment Tree con un formato binario, cada nodo tendrá como máximo solo dos nodos derivados. Los nodos derivados representarán las dos mitades que 
   forman el intérvalo de su nodo padre. Entonces, el nodo 0 tiene un intérvalo de $[0..N]$, el nodo 1 de $[0..N/2]$, el nodo 2 de $[N/2+1..N]$, y así sucesivamente hasta
