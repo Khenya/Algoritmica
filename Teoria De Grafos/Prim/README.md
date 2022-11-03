@@ -32,7 +32,6 @@ La más grande diferencia con el algoritmo KrusKal es que podemos iniciar del no
  
 ![image](https://user-images.githubusercontent.com/101911555/199822804-072b3d43-3256-4ad0-8af6-a1df44b8d339.png)
  
- Este ultimo paso lo debemos repetir hasta conectar todos los nodos:
  
  ![alt text](https://cdn.programiz.com/sites/tutorial2program/files/pa_5.png)
  
