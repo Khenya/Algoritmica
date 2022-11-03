@@ -13,7 +13,7 @@
     
 Realizamos esta búsqueda construyendo un árbol, compuesto por nodos, es necesario recalcar que cada trie siempre iniciara con un nodo basio, cada nodo es un caracter el cual pertenece a un universo denominado $U$, solo podemos usar las palabras del universo $U$. Los nodos son posicionados de acuerdo a las posisciones de la palabre que tratamos de introducir al árbol.
 
-El código del árbol pued estar compuesto por maps o arrays, en caso de que sea un array es nesesario ordenar los nodos alfabeticamente. Al usasr arrays la busqueda será mas veloz que al usar maps. Al utilizar maps no es necesario ordenar los nodos del primer nivel alfabeticamente pero cada nodo debe contener dos datos, el caracter y la posicion del caracter.
+El código del árbol puede estar compuesto por maps o arrays, en caso de que sea un array es nesesario ordenar los nodos alfabeticamente. Al usasr arrays la busqueda será mas veloz que al usar maps. Al utilizar maps no es necesario ordenar los nodos del primer nivel alfabeticamente pero cada nodo debe contener dos datos, el caracter y la posicion del caracter.
 
 Para utilizar un Trie es necesario armar un árbol, donde los nodos sean las letras de las palabras. Se debe marcar a cada letra que es fin de una palabre, es importante recalcar que en cada nivel los caracteres del universo $U$ que no usemos debemos ponerlos con valor null.
 
