@@ -66,4 +66,12 @@ Algunas de las aplicaciones de la estructura de datos Trie son:
 
 * Autocorrector
 * Autocompletado de texto
+
+### Bibibliografia
+* [video 1](https://youtu.be/AXjmTQ8LEoI)
+* [video 2](https://youtu.be/6PX6wqDQE20)
+* [video 3](https://youtu.be/-urNrIAQnNo)
+* [Tutorial 1](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+* [Tutorial 2](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/tutorial/)
+* [Tutorial 3](https://www.topcoder.com/thrive/articles/Using%20Tries)
 </div>
