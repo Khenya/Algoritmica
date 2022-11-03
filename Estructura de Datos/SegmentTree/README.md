@@ -72,5 +72,11 @@ Y la respuesta a nuestro querry seria $1$.
  * Ordenamiento de elementos
  * Búsqueda binaria
  
+ 
+### Bibibliografia
+* [video 1](https://youtu.be/Ic7OO3Uw6J0)
+* [video 2](https://youtu.be/2FShdqn-Oz8)
+* [Tutorial 1](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+* [Tutorial 2](https://riptutorial.com/data-structures/example/25673/introduction-to-segment-tree)
 
 </div>
