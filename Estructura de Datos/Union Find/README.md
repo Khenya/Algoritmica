@@ -55,4 +55,10 @@ A alogo asi:
 * Dynamic connectivity.
 * COVID, para ver encontrar el pasiente 0.
 
+### Bibibliografia
+* [video 1](https://youtu.be/ID00PMy0-vE)
+* [video 2](https://youtu.be/ayW5B2W9hfo)
+* [Tutorial 1](https://jariasf.wordpress.com/2012/04/02/disjoint-set-union-find/)
+* [Tutorial 2](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
+
 </div>
