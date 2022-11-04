@@ -36,12 +36,6 @@ Otra tarea común es encontrar el área de un polígono, dados los puntos alrede
  ![image](https://user-images.githubusercontent.com/101911555/199825915-980bb645-e9c1-4c30-aa3b-635fc0a1fdea.png)
 
  La razón por la que esto funciona es que el número positivo y el negativo se anulan exactamente en la cantidad correcta. El área de ABC y ACD terminó contribuyendo positivamente al área final, mientras que el área de ADE contribuyó negativamente. Mirando el polígono original, es obvio que el área del polígono es el área de ABCD (que es lo mismo que ABC + ABD) menos el área de ADE. Una nota final, si el área total con la que terminamos es negativa, significa que los puntos del polígono se nos dieron en el sentido de las agujas del reloj. Ahora, solo para hacer esto un poco más concreto, escribamos un poco de código para encontrar el área de un polígono, dadas las coordenadas como una matriz 2-D, p.
- 
- ### Alplicaciones de Prim
- 
- 1. Tendido de cables de cableado eléctrico.
-2. En red diseñado
-3. Para hacer protocolos en ciclos de red
 
  ### Bibliografia
  
